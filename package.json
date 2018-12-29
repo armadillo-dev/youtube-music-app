@@ -1,0 +1,44 @@
+{
+  "name": "youtube-music-app",
+  "version": "1.0.0",
+  "description": "Youtube music electron app",
+  "main": "index.js",
+  "build": {
+    "appId": "youtube.music.app",
+    "productName": "Youtube Music",
+    "copyright": "Copyright © 2018 ${author}",
+    "directories": {
+      "buildResources": "build"
+    },
+    "files": ["**/*"],
+    "mac": {
+      "category": "public.app-category.music",
+      "icon": "assets/favicon.icns"
+    }
+  },
+  "scripts": {
+    "start": "electron index.js",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/armadillo-dev/youtube-music-app"
+  },
+  "keywords": [
+    "youtube",
+    "electron",
+    "music"
+  ],
+  "author": "armadillo.dev167@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/armadillo-dev/youtube-music-app/issues"
+  },
+  "homepage": "https://github.com/armadillo-dev/youtube-music-app#readme",
+  "devDependencies": {
+    "electron": "^3.0.13",
+    "electron-builder": "^20.38.4",
+    "path": "^0.12.7"
+  }
+}
