@@ -24,9 +24,8 @@ yarn pack
 * [Electron builder](https://www.electron.build/) - A complete solution to package and build.
 
 
-##Screenshot
+## Screenshot
 ![Home](https://user-images.githubusercontent.com/43581054/50597708-b1868f80-0eeb-11e9-815a-854e1b8bab21.png)
-
 ![Player](https://user-images.githubusercontent.com/43581054/50597710-b21f2600-0eeb-11e9-9cb4-8b8bdda5c3c4.png)
 
 ## License
