@@ -22,6 +22,9 @@
   "scripts": {
     "start": "electron index.js",
     "pack": "electron-builder --dir",
+    "pack-mac": "electron-builder --mac -p always",
+    "pack-win": "electron-builder --win -p always",
+    "pack-linux": "electron-builder --linux -p always",
     "dist": "electron-builder"
   },
   "repository": {

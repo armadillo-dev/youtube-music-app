@@ -10,7 +10,7 @@ function createWindow () {
     height: 800,
     icon: path.join(__dirname, `assets/favicon.${process.platform === 'darwin' ? 'icns' : 'ico'}`),
   });
-  console.log(path.join(__dirname, `assets/favicon.${process.platform === 'darwin' ? 'icns' : 'ico'}`));
+
   mainWindow.loadURL('https://music.youtube.com');
 
   mainWindow.on('closed', function () {
