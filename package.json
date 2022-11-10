@@ -43,7 +43,7 @@
   },
   "homepage": "https://github.com/armadillo-dev/youtube-music-app#readme",
   "devDependencies": {
-    "electron": "^7.2.4",
+    "electron": "^18.3.7",
     "electron-builder": "^20.38.4",
     "path": "^0.12.7"
   }
