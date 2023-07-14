@@ -45,6 +45,7 @@ function createTray() {
       click: () => {
         appTray.destroy();
         app.quit();
+        process.exit();
       },
     },
   ]);
@@ -67,6 +68,7 @@ app.on('ready', () => {
 app.on('window-all-closed', function () {
   if (process.platform !== 'darwin') {
     app.quit();
+    process.exit();
   }
 });
 

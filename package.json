@@ -1,6 +1,6 @@
 {
   "name": "youtube-music-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Youtube music electron app",
   "main": "index.js",
   "build": {
@@ -10,7 +10,9 @@
     "directories": {
       "buildResources": "build"
     },
-    "files": ["**/*"],
+    "files": [
+      "**/*"
+    ],
     "mac": {
       "category": "public.app-category.music",
       "icon": "assets/favicon.icns"
