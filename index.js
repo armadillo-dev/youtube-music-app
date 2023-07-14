@@ -8,6 +8,7 @@ function createWindow() {
   mainWindow = new BrowserWindow({
     title: 'Youtube Music',
     width: 1200,
+    minWidth: 414,
     height: 800,
     icon: path.join(
       __dirname,
